@@ -1,0 +1,31 @@
+//Q1
+
+for (int i = 1; i <= 2000; i = i + 1)
+
+                Console.WriteLine(i);
+                
+//END
+
+
+
+
+
+//Q6
+
+Console.WriteLine("Number??");
+            int Num = Convert.ToInt32(Console.ReadLine());
+             
+            for (int i = 1; i <= Num; i = i + 1)
+            
+            {    Console.Write(i);
+
+                for (int j = 1; j <= i; j = j + 1)
+
+                {
+                    if (j <= i)
+                    Console.Write("*");
+
+                    else
+                    Console.WriteLine();
+
+//END
