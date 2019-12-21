@@ -1,0 +1,38 @@
+// Q1
+
+            do
+            {
+                Console.WriteLine("Enter Number");
+                int Num = Convert.ToInt32(Console.ReadLine());
+                int i = 2;
+                for (i = 2; i <= Math.Sqrt(Num); i = i + 1) ;
+                if Num/i = 0 ;            
+            }
+            
+            while (Num / i != 0) ;
+            
+            
+  // END
+  
+  
+  
+  //Q2
+  
+            Console.WriteLine("How Many Sudents?");
+            
+            int Stu = Convert.ToInt32(Console.ReadLine());
+            int Meah = Stu / 100;
+            int Shloshim = (Stu - 100 * Meah) / 30;
+            int Eser = (Stu - 100 * Meah - 30 * Shloshim) / 10;
+            int Habaita = Stu % 10;
+
+            Console.WriteLine($"Classes of 100:  {Meah}");
+            Console.WriteLine($"Classes of 30:  {Shloshim}");
+            Console.WriteLine($"Classes of 10:  {Eser}");
+            Console.WriteLine($"Going Home:  {Habaita}");
+            
+// END
+
+
+
+//Q
