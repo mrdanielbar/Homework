@@ -1,16 +1,45 @@
-// Q1
+// Q1 ???
 
-            do
+            
+            Console.WriteLine("Choose Number");
+            int Num = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            int Check = 0;
+
+            while (Check < 1)
             {
-                Console.WriteLine("Enter Number");
-                int Num = Convert.ToInt32(Console.ReadLine());
-                int i = 2;
-                for (i = 2; i <= Math.Sqrt(Num); i = i + 1) ;
-                if Num/i = 0 ;            
+                for (int i = 1; i <= Math.Sqrt(Num); i = i + 0)
+                {
+
+                    if (Num / i !> 0)
+                    {
+                        Check = Check + 1;
+                    }
+                }
+
+                if (Check < 1)
+                {
+                    Console.WriteLine("Not a Prime Number");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Console.WriteLine("Choose Number");
+                    Num = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine();
+
+                    
+                }
+
+                else
+                {
+                    Console.WriteLine("Prime Number");
+                }
+
             }
-            
-            while (Num / i != 0) ;
-            
+
+        }
+
+
             
   // END
   
