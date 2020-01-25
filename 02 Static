@@ -1,0 +1,42 @@
+using System;
+
+namespace MyBook
+{
+    class MainProgram
+    {
+        static string Title;
+        static string Author;
+        public static short YearPublished;
+        public static int NumberOfPages;
+        public static char CoverType;
+
+        public static void CreateBook()
+        {
+            Title = "DefTitle";
+            Author = "DefAuth";
+            YearPublished = 2000;
+            NumberOfPages = 100;
+            CoverType = d;
+
+        }
+
+        public static void ShowBook()
+        {
+            Console.WriteLine(Title);
+            Console.WriteLine(Author);
+            Console.WriteLine(YearPublished);
+            Console.WriteLine(NumberOfPages);
+            Console.WriteLine(CoverType);
+        }
+
+
+
+        static void Main(string[] args)
+        {
+            var MyObj = new MainProgram
+            {
+                Showbook(MyObj);
+            }
+        }
+    }
+}
